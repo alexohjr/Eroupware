@@ -50,7 +50,9 @@ public class MainController {
 		System.out.println("사이즈 : " + projectList.size());
 		
 		if(projectList.size() > 8) {
-			for(int i=8; i<projectList.size(); i++) {
+			System.out.println("여기 실행1");
+			for(int i=7; i<projectList.size(); i++) {
+				System.out.println("여기 실행2");
 				projectList.remove(i);
 			}
 		}
