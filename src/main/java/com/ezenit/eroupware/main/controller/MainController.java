@@ -53,7 +53,7 @@ public class MainController {
 			}
 		}
 		
-		System.out.println("fdfasdfsa");
+		System.out.println("fdfasdfsa333");
 		
 		model.addAttribute("noticeList", mainService.getNoticeList());
 		model.addAttribute("projectList", projectList);
