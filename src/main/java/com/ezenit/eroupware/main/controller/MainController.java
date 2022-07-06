@@ -55,6 +55,7 @@ public class MainController {
 		
 		System.out.println("테스트입니다.");
 		System.out.println("테스트2");
+		System.out.println("테스트3");
 		
 		model.addAttribute("noticeList", mainService.getNoticeList());
 		model.addAttribute("projectList", projectList);
