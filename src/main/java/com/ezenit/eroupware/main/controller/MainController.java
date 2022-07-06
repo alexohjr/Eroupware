@@ -52,7 +52,7 @@ public class MainController {
 		if(projectList.size() > 8) {
 			System.out.println("여기 실행1");
 			for(int i=7; i<projectList.size(); i++) {
-				System.out.println("여기 실행2");
+				System.out.println("여기 실행2222");
 				projectList.remove(i);
 			}
 		}
