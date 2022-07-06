@@ -53,6 +53,8 @@ public class MainController {
 			}
 		}
 		
+		System.out.println("테스트입니다.");
+		
 		model.addAttribute("noticeList", mainService.getNoticeList());
 		model.addAttribute("projectList", projectList);
 		model.addAttribute("reportList", reportList);
